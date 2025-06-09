@@ -1,4 +1,3 @@
-
 export interface MenuItem {
   id: string;
   name: string;
@@ -6,6 +5,7 @@ export interface MenuItem {
   price: string;
   category: string;
   available: boolean;
+  image?: string; // Base64 string for the image
 }
 
 export interface MenuCategory {
